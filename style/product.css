@@ -1,0 +1,41 @@
+.mainContainer
+{
+    display: flex;
+    gap: 1rem;
+    margin-top: 20rem;
+}
+.containerOfImagesInProduct
+{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+.MainImage
+{
+    width: 100%;
+    height: 80vh;
+}
+.MainImage img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ImagesOfProductContainer
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.antherImageContainer
+{
+    width: 45%;
+    height: 35rem;
+}
+.antherImageContainer img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

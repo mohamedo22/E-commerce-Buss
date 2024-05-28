@@ -113,9 +113,69 @@ function openSearchWindow()
 {
     let searchWindow = document.querySelector('.search');
     searchWindow.style.visibility = 'visible';
+    
+        header.style.backgroundColor = 'white';
+        header.style.color = 'black';
+        let PinHeader = document.querySelectorAll("header p").forEach(function(el)
+        {
+            el.style.color = 'black';
+        });
+        document.querySelectorAll(".icons path").forEach((el)=>{
+            el.style.fill = 'black';
+        });
+        document.querySelector('.bag path').style.stroke = 'black';
+        document.querySelector('.bag path').style.fill = 'black';
+    
 }
 function closeSearchWindow()
 {
     let searchWindow = document.querySelector('.search');
     searchWindow.style.visibility = '';
+    let header = document.querySelector("header");
+        header.style.backgroundColor = '';
+        header.style.color = '';
+        let PinHeader = document.querySelectorAll("header p").forEach(function(el)
+        {
+            el.style.color = '';
+        });
+        document.querySelectorAll(".icons path").forEach((el)=>{
+            el.style.fill = '';
+        });
+        document.querySelector('.bag path').style.stroke = '';
+        document.querySelector('.bag path').style.fill = '';
+}
+function openFavWindow()
+{
+    let wishlist = document.querySelector('.wishlist');
+    wishlist.style.right = '0rem';
+    
+        header.style.backgroundColor = 'white';
+        header.style.color = 'black';
+        let PinHeader = document.querySelectorAll("header p").forEach(function(el)
+        {
+            el.style.color = 'black';
+        });
+        document.querySelectorAll(".icons path").forEach((el)=>{
+            el.style.fill = 'black';
+        });
+        document.querySelector('.bag path').style.stroke = 'black';
+        document.querySelector('.bag path').style.fill = 'black';
+    
+}
+function closeFavWindow()
+{
+    let wishlist = document.querySelector('.wishlist');
+    wishlist.style.right = '';
+    let header = document.querySelector("header");
+        header.style.backgroundColor = '';
+        header.style.color = '';
+        let PinHeader = document.querySelectorAll("header p").forEach(function(el)
+        {
+            el.style.color = '';
+        });
+        document.querySelectorAll(".icons path").forEach((el)=>{
+            el.style.fill = '';
+        });
+        document.querySelector('.bag path').style.stroke = '';
+        document.querySelector('.bag path').style.fill = '';
 }

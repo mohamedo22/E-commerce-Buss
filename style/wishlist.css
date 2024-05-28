@@ -1,0 +1,54 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.FirstSectionOfWIshList
+{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 2rem;
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+.titleOfFirstSectionInWishList
+{
+    font-size: 1.5rem;
+    color: black !important;
+    font-weight: 600;
+}
+.buttonOfFirstSectionInWishList
+{
+    color: white;
+    padding: 1rem 4rem;
+    background-color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.containerOfIconsInwishList
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.containerOfIconsInwishList i,img
+{
+    font-size: 1.2rem;
+   width: 1.5rem;
+   cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+    .FirstSectionOfWIshList
+    {
+        margin-left: 1rem;
+        padding-right: 2rem;
+    }
+    .swapInWishList
+    {
+        margin-left: -2rem !important;
+    }
+}
