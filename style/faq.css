@@ -1,0 +1,84 @@
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+:root
+{
+    --mainTextColor:rgba(56, 55, 55, 0.699);
+}
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'General Sans';
+    font-size: .92rem;
+    transition: all 200ms;
+}
+header
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1.8rem 0rem;
+    
+}
+header p
+{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: 500;
+}
+.searchContainer
+{
+    display: flex;
+    padding: .2rem 1rem;
+    width: fit-content;
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    gap: .5rem;
+    border: 1px solid silver;
+}
+.searchContainer > input
+{
+    padding: .2rem .5rem;
+    border: none;
+    outline: none;
+    width: 13rem;
+    height: 1.5rem;
+    background-color: transparent;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.searchContainer > i
+{
+    color: gray;
+}
+.firstSection
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    align-items: center;
+}
+.navigations
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+i 
+{
+    font-size: .8rem;
+    color: silver;
+}
+.homeIcon
+{
+    width: 1rem;
+}
+.secondSection
+{
+    margin-top: 3rem;
+    padding: 0rem 1rem;
+}
