@@ -1,0 +1,17 @@
+.ImageInHead
+{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../images/helpHeader.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: -20rem;
+}
+@media screen and (max-width:800px) {
+    .ImageInHead
+    {
+        left: -1rem;
+        height: 40vh;
+    }
+}

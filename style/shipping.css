@@ -1,0 +1,40 @@
+*
+{
+    color: #524952 !important;
+}
+.info
+{
+    width: 60rem;
+    font-size: .9rem;
+}
+.containerOfTextInshipping
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+table
+{
+    width: 40rem;
+    border: 1px solid #767676;
+}
+td
+{
+    padding: 1rem;
+    border-bottom: 1px solid #767676;
+    
+}
+.td2
+{
+    border-left: 1px solid #767676;
+}
+@media screen and (max-width:800px) {
+    .info
+    {
+        width: 90vw;
+    }
+    table
+    {
+        width: 90vw;
+    }
+}
