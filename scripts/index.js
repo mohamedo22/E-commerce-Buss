@@ -179,3 +179,35 @@ function closeFavWindow()
         document.querySelector('.bag path').style.stroke = '';
         document.querySelector('.bag path').style.fill = '';
 }
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+        {pageLanguage: 'en'},
+        'google_translate_element'
+    );
+} 
+function toArabic() {
+    let listOfLanguage = document.querySelector(".goog-te-combo");
+    listOfLanguage.value = "ar";
+    
+    listOfLanguage.dispatchEvent(new Event('change'));
+    let textElements = document.querySelectorAll("p, .FirstSectionOfContactUs , h1, h2, h3, h4, h5, h6, span, li, a, button, input, textarea, label");
+
+    textElements.forEach((el) => {
+        el.style.textAlign = "right";
+        el.dir = "rtl";
+        document.querySelector(".section5").dir = "ltr";
+    });
+}
+
+function toEnglish() {
+    let listOfLanguage = document.querySelector(".goog-te-combo");
+    listOfLanguage.value = "en";
+    listOfLanguage.dispatchEvent(new Event('change'));
+    let textElements = document.querySelectorAll("p, .FirstSectionOfContactUs , h1, h2, h3, h4, h5, h6, span, li, a, button, input, textarea, label");
+
+    textElements.forEach((el) => {
+        el.style.textAlign = "left";
+        el.dir = "ltr";
+        document.querySelector(".section5").dir = "ltr";
+    });
+}

@@ -2,6 +2,20 @@ header
 {
     transition: all 500ms;
 }
+.translate-btn
+{
+    background-color: black !important;
+    color: white !important;
+    outline: none;
+    border: none;
+    position: fixed;
+    top: 5rem;
+    cursor: pointer;
+    border-radius: 50% !important;
+    padding: 1rem .3rem !important ;
+    right: 2rem;
+    z-index: 9999;
+}
 button
 {
     cursor: pointer;
@@ -126,7 +140,7 @@ button
 {
     border-color: black;
 }
-.trans-btn
+.transs-btn
 {
     background-color: transparent;
     padding: .5rem 1rem;

@@ -25,6 +25,40 @@ body
 {
     width: 100vw;
     overflow-x: hidden;
+    padding-right: 10rem;
+}
+#google_translate_element
+{
+    position: fixed;
+    top: 6rem;
+    right: 2rem;
+    z-index: 1000;
+}
+select
+{
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+.skiptranslate
+{
+        visibility: hidden !important;
+        display: none !important;
+}
+.trans-btn
+{
+    background-color: black;
+    color: white !important;
+    outline: none;
+    border: none;
+    position: fixed;
+    top: 5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem .3rem ;
+    right: 2rem;
+    z-index: 9999;
 }
 .search
 {
@@ -190,7 +224,7 @@ header
     width: 100vw;
     padding: 1rem 1.5rem;
     color: white;
-    z-index: 9999;
+    z-index: 9998;
     top: 0;
 }
 header:hover
@@ -653,7 +687,7 @@ header:hover .bag path
 }
 .FixedImageBack
 {
-    background: url(../images/Icon-CollectionSection6.jpg) fixed;
+    background:fixed;
     background-size: 46rem;
 
 }
@@ -756,6 +790,10 @@ footer
     visibility: hidden;
 }
 @media screen and (max-width: 768px) {
+    body
+    {
+        padding-right: 1rem;
+    }
     .collections , .Navigations
     {
         display: none;

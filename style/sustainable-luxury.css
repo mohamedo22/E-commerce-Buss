@@ -1,0 +1,148 @@
+
+.firstSectionOfsustainable-luxury
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/Header-Sustainability-Page-Desketop-Logo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.SecondSection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.DescriptionOfSection2
+{
+    font-size: 2rem;
+    color: black;
+    width: 70vw;
+    text-align: center;
+    font-weight: 500;
+}
+.Section3
+{
+    display: flex;
+    width: 100vw;
+    padding: 1rem 1rem;
+    padding-left: 5rem;
+    gap: 12rem;
+    margin-bottom: 15rem;
+}
+.containerInsection3S
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.textInSection3
+{
+    width: 23rem;
+    letter-spacing: .1rem;
+}
+.imgInFirstContainerInS
+{
+    width: 30rem;
+    height: 35rem;
+}
+.imgInSecondContainerS
+{
+    width: 45vw;
+    height: 100vh;
+}
+.FirstContainerInSection3
+{
+    margin-top: 6rem;
+}
+.section7
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.section7 > p
+{
+    width: 40rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #3a3a3a;
+}
+.section7 > .titleSection7Ins
+{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+}
+.containerOfSection6InS
+{
+    width: 100vw;
+    display: flex;
+}
+@media screen and (max-width:800px) {
+    .firstSectionOfsustainable-luxury
+    {
+        background-image: url(../images/Header-Sustainability-Page-Mobile-Logo.jpg);
+        height: 80vh;
+    }
+    .DescriptionOfSection2
+    {
+        width: 100vw;
+        padding: 0rem 1rem;
+    }
+    .Section3
+    {
+        flex-wrap: wrap;
+        padding: 0rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .FirstContainerInSection3
+    {
+        flex-direction: column-reverse;
+    }
+    .imgInFirstContainerInS
+    {
+        width: 22rem;
+        height: 30rem;
+    }
+    .imgInSecondContainerS
+    {
+        width: 100%;
+        height: 30rem;
+    }
+    .FixedImageBack
+    {
+        position: static;
+    }
+    .containerOfSection6InS
+    {
+        flex-direction: column;
+    }
+    .ReverceInMobile
+    {
+        flex-direction: column-reverse;
+    }
+    .descriptionSc6
+    {
+        align-items: start;
+        flex-direction: column;
+        gap: 2rem;
+        letter-spacing: .1rem;
+        padding-left: 12%;
+        margin-top: .5rem;
+        height: 40vh;
+    }
+    .section7 > p
+    {
+        width: 100vw;
+        padding: 0rem 2rem;
+    }
+}
