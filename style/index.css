@@ -1,4 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Reem+Kufi:wght@400..700&display=swap');
+
 :root
 {
     --mainTextColor:rgba(56, 55, 55, 0.699);
@@ -8,7 +10,7 @@
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
-    font-family: 'General Sans';
+    font-family: 'General Sans' , "Reem Kufi";
     font-size: .92rem;
     transition: all 200ms;
 }
@@ -56,9 +58,13 @@ select
     top: 5rem;
     cursor: pointer;
     border-radius: 50%;
-    padding: 1rem .3rem ;
     right: 2rem;
     z-index: 9999;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
 }
 .search
 {
@@ -713,7 +719,7 @@ footer
     width: 100vw;
     color: gray;
     border-top: .5px solid silver;
-    letter-spacing: .1rem;
+    letter-spacing: .1rem !important;
 }
 .FooterContent
 {
@@ -732,13 +738,13 @@ footer
 .titleLinkesFooter
 {
     color: rgb(7, 7, 7);
-    font-size: .8rem;
+    font-size: .8rem !important;
     
 }
 .ContainerOFinksFooter a,p
 {
     color: gray;
-    font-size: .8rem;
+    font-size: .8rem !important;
 }
 .ContainerOFinksFooter form
 {
@@ -762,9 +768,10 @@ footer
     background-color: transparent;
     border: none;
     outline: none;
-    font-size: .8rem;
-    padding: .1rem .3rem;
+    font-size: .8rem !important;
+    padding: .1rem .3rem !important;
     border-bottom: 1px solid;
+    letter-spacing: 0rem !important;
 }
 .ContainerOFinksFooter form input:focus
 {
@@ -773,7 +780,7 @@ footer
 .ContainerOFinksFooter form input::placeholder
 {
     letter-spacing: .1rem;
-    font-size: 1rem;
+    font-size: 1rem !important;
 }
 .SocialContainer
 {
@@ -782,7 +789,7 @@ footer
 }
 .SocialContainer a i
 {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
 }
 .fa-plus
 {
