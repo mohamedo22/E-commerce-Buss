@@ -194,7 +194,6 @@ function toArabic() {
 
     textElements.forEach((el) => {
         el.style.textAlign = "right";
-        el.style.letterSpacing = ".1rem";
         el.style.lineHeight = "2rem";
         el.style.fontSize = "1rem";
         el.dir = "rtl";

@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/general-sans');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&family=Reem+Kufi:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
 
 :root
 {
@@ -10,7 +10,7 @@
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
-    font-family: 'General Sans' , "Reem Kufi";
+    font-family: 'General Sans' , "Noto Kufi Arabic";
     font-size: .92rem;
     transition: all 200ms;
 }
@@ -43,6 +43,7 @@ select
     padding: .5rem 1rem;
     cursor: pointer;
 }
+
 .skiptranslate
 {
         visibility: hidden !important;
@@ -232,6 +233,11 @@ header
     color: white;
     z-index: 9998;
     top: 0;
+}
+.logo
+{
+    width: 5rem;
+    height: 5rem;
 }
 header:hover
 {

@@ -9,7 +9,7 @@
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
-    font-family: 'General Sans';
+    font-family: 'General Sans' , "Noto Kufi Arabic";
     font-size: .92rem;
     transition: all 200ms;
 }
@@ -20,10 +20,14 @@ header
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 1.8rem 0rem;
+    padding: 0rem 0rem;
     
 }
-
+.logo
+{
+    width: 5rem;
+    height: 5rem;
+}
 body
 {
     width: 100vw;
@@ -75,12 +79,8 @@ select
     background-color: black;
     border-radius: 8px;
 }
-header p
-{
-    font-size: 1.5rem;
-    letter-spacing: .1rem;
-    font-weight: 500;
-}
+
+
 .firstSection
 {
     background: url(/images/helpHeader.jpg);
