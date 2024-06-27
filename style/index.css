@@ -36,6 +36,11 @@ body
     right: 2rem;
     z-index: 1000;
 }
+.VIpgJd-ZVi9od-ORHb-OEVmcd
+{
+    z-index: -1 !important;
+    top: -50rem !important;
+}
 select
 {
     outline: none;
@@ -372,6 +377,7 @@ header:hover .bag path
     width: 100vw;
     height: 100vh;
     position: relative;
+    top: -3rem;
 }
 .VideoBack
 {
