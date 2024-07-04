@@ -217,3 +217,9 @@ function toEnglish() {
         document.querySelector(".section5").dir = "ltr";
     });
 }
+document.querySelectorAll('.SwapSection5').forEach((el)=>
+{
+    el.onclick = function(){
+        window.location.href = 'product.html'
+    }
+});
