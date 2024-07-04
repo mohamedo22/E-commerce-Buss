@@ -310,3 +310,4 @@ class Pagination extends HTMLElement {
     }
 }
 customElements.define("swiper-motion-pagination", Pagination);
+
